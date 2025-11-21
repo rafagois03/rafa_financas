@@ -1,4 +1,4 @@
-Date,Expense,Amount,Account,Category,Note
+Date,Expense,Amount,Account,Category,Note,Frequency,Total of Installments,Installment Number,Recurrence Day,Payment Method
 2023-01-01,Salary,500.0,Citibank,Main Job,Monthly salary credited
 2023-01-01,Dividends,200.0,Bank of America,Investments,Monthly dividends credited
 2023-01-01,Rental Earnings,700.0,Chase,Real Estate,Monthly rental income
