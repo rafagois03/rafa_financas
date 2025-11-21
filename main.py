@@ -9,7 +9,7 @@ st.set_page_config(page_title='Rafael Góis - Finanças Pessoais',initial_sideba
 #                                   Main App                                   #
 # ---------------------------------------------------------------------------- #
 
-st.markdown('Rafael Góis - Finanças Pessoais')
+st.markdown('# Rafael Góis - Finanças Pessoais')
 if 'data' not in st.session_state:
     st.session_state.data = pd.read_csv('./assets/test_data.csv')
     st.session_state.data['Date'] =  pd.to_datetime(st.session_state.data['Date'])
