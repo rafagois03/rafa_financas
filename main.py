@@ -3,13 +3,13 @@ import functions.finance_tracker as finance_tracker
 import pandas as pd
 
 # -------------------------------- Page config ------------------------------- #
-st.set_page_config(page_title='Finance Tracker',initial_sidebar_state='collapsed',layout='wide')
+st.set_page_config(page_title='Rafael Góis - Finanças Pessoais',initial_sidebar_state='collapsed',layout='wide')
 
 # ---------------------------------------------------------------------------- #
 #                                   Main App                                   #
 # ---------------------------------------------------------------------------- #
 
-st.markdown('# Finance Tracker')
+st.markdown('Rafael Góis - Finanças Pessoais')
 if 'data' not in st.session_state:
     st.session_state.data = pd.read_csv('./assets/test_data.csv')
     st.session_state.data['Date'] =  pd.to_datetime(st.session_state.data['Date'])
